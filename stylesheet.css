@@ -1,0 +1,54 @@
+.container {
+ 	font-family: 'Lato', sans-serif;
+ 	color: #666666;
+}
+
+header h1,
+header h4 {
+	font-weight: 300;
+}
+
+header h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+header h4 {
+	font-size: 25px;
+	text-align: right;
+}
+
+hr {
+	height: 4px;
+	margin-top: 20px:
+	color: black;
+}
+
+.logo {
+	display: inline-block;
+	text-align: right;
+	width: 200px;
+	margin-top: 15px;
+}
+
+.name-title {
+	display: inline-block;
+	text-align: right;
+	width: 50%; 
+	padding-left: 300px
+}
+
+.main {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+h2 {
+	color: #bcbbbb;
+}
+
+.portfolio-img {
+	cursor: pointer;
+}
