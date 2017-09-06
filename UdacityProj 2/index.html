@@ -7,7 +7,7 @@
 	<title>Alfredo's Udacity Portfolio Project</title>
 	<link href="css/stylesheet.css" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-	<link href="css/bootstrap.min.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,54 +21,57 @@
 
 <body>
 	<div class="container">
-		<div class="row">
-			<header>
-				<div class="col-md-6 col-sm-4 col-xs-4">
-					<img class="img-responsive logo" src="images/logopic.png" alt="Portfolio Site Pic">
-				</div>
-					<div class="col-md-6 col-sm-8 col-sm-8 text-right text-uppercase">
-					<h1>Alfredo Morales Jr.</h1>
-					<h4>Full-Stack Ninja</h4>
-				</div>
-			</header>
-		</div>
-		<hr>
-		<div class="row">
-			<figure>
-				<div class="col-md-12">
-					<img class="img-responsive main" src="images/MainDevImage.png" alt="Main Image">
-				</div>
-			</figure>
-		</div>
+		<header class="row">
+			<div class="col-md-6 col-sm-4 col-xs-4">
+				<img class="img-responsive logo" src="images/logopic.png" alt="Portfolio Site Pic">
+			</div>
+			<div class="col-md-6 col-sm-8 col-sm-8 text-right text-uppercase">
+				<h1>Alfredo Morales Jr.</h1>
+				<h4>Full-Stack Ninja</h4>
+			</div>
+		</header>
 
 		<div class="row">
-			<div class="col-md-12">
-				<h2>Featured Work</h2>
+			<div class="col-md-12 col-sm-12">
+				<hr>
 			</div>
-			<div class="row text-center">
-			<div class="col-md-4 col-sm-4">
+		</div>
+
+		<figure class="row">
+			<div class="col-md-12">
+				<img class="img-responsive main" src="images/MainDevImage.png" alt="Main Image">
+			</div>
+		</figure>
+
+		<main class="row">
+			<header class="col-md-12">
+				<h2>Featured Work</h2>
+			</header>
+			<article class="col-md-4 col-sm-4 text-center">
 				<img class="img-responsive" src="images/portfoliositepic.jpg" alt="Porfolio Website image">
 				<h3>Portfolio Site</h3>
-				<a href="https://github.com/xtraineralfredo/Udacity-Portfolio-Project" class="btn btn-info" role="button">Source Code Link</a>
-			</div>
-			<div class="col-md-4 col-sm-4">
+				<a href="https://github.com/xtraineralfredo/Udacity-Portfolio-Project" target="_blank" class="btn btn-info" role="button">Source Code Link</a>
+			</article>
+			<article class="col-md-4 col-sm-4 text-center">
 				<img class="img-responsive" src="images/movietrailerpic.jpg" alt="Movie Trailer Website image">
 				<h3>Movie Trailer Website</h3>
-				<a href="https://github.com/xtraineralfredo/Udacity---Movie-Trailer-Website" class="btn btn-info" role="button">Source Code Link</a>
-			</div>
-			<div class="col-md-4 col-sm-4">
+				<a href="https://github.com/xtraineralfredo/Udacity---Movie-Trailer-Website" target="_blank" class="btn btn-info" role="button">Source Code Link</a>
+			</article>
+			<article class="col-md-4 col-sm-4 text-center">
 				<img class="img-responsive" src="images/comingsoonpic.jpg" alt="Coming soon image">
 				<h3>Next Project Coming Soon</h3>
-			</div>
+			</article>
+		</main>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<hr>
+				</div>
+				<p class="col-md-12 text-muted text-center">To contact me directly send me an email at xtraineralfredo@gmail.com</p>
 			</div>
 		</div>
-
-		<footer class="footer">
-			<div class="container">
-				<hr>
-				<p class="text-muted text-center">To contact me directly send me an email at xtraineralfredo@gmail.com</p>
-			</div>
-		</footer>
-	</div>
-	</body>
+	</footer>
+</body>
 </html>
